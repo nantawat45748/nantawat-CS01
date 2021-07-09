@@ -1,1 +1,1 @@
-print("nantawat ")
+print("nantawat")
