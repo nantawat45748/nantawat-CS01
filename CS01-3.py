@@ -1,2 +1,6 @@
-A=int(input("762548"))
-print(A)
+from typing import Callable
+
+
+A=int(input("วัน"))
+B=str(input("เดือน"))
+print(A,"/",B,)
