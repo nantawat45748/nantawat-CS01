@@ -1,2 +1,2 @@
-A=input(nantawat na nan)
+A=input("nantwat na nan")
 print(A)
