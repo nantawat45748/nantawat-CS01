@@ -1,0 +1,19 @@
+a=int(input("คะแนนเก็บ : "))
+b=int(input("คะแนนสอบกลางภาค : "))
+c=int(input("คะแนนสอบปลายภาค : "))
+if(a+b+c>=80 and a+b+c <=100):
+    print("A")
+elif(a+b+c>=75 and a+b+c<=79):
+    print("B+")
+elif(a+b+c>=70 and a+b+c<=74):
+    print("B")
+elif(a+b+c>=65 and a+b+c<=69):
+    print("C+")
+elif(a+b+c>=60 and a+b+c<=64):
+    print("C")
+elif(a+b+c>=55 and a+b+c<=59):
+    print("D+")
+elif(a+b+c>=50 and a+b+c<=54):
+    print("D")
+elif(a+b+c>=0 and a+b+c<=49):
+    print("F")
